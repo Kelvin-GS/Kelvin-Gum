@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'merriweather', serif;
+    color: #40514E;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 10px;
+    background-color: #E4F9F5;
+}
+
+img {
+    width: 25%;
+}
+
+#dev {
+    text-decoration: underline;
+}
+
+#mountains {
+    width: 100%;
+    margin: 0;
+}
+
+#topCloud {
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+
+}
+
+#bottomCloud {
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+    right: 100px;
+}
+
+h1 {
+    font-family: 'montez', 'sacramento', cursive;
+    font-size: 100px;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 200%;
+}
+
+h2 {
+    font-family: 'montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: 600;
+}
+
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    font-family: 'montserrat';
+    text-decoration-line: none;
+    font-weight: 600;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;/*doubles the line spacing*/
+}
+
+.graphics {
+    width: 35%;
+    float: right;    /*makes the element be aligned in the same line as the text*/
+    margin-left: 30px;
+}
+
+.gif {
+    width: 35%;
+    float: left;    /*makes the element be aligned in the same line as the text*/
+    margin-left: 30px;
+}
+
+.webDev {
+    width: 35%;
+    float: left;    /*makes the element be aligned in the same line as the text*/
+                    /*the opposite of "float" is "clear" >> it prevents elements from floating in a specified direction*/
+    margin-right: 30px;
+}
+
+/*Float is for ONLY wrapping text...not positioning >> Issues arise when it is used for positioning.
+Use the renown positioning methods that is, absolute, relative,fixed, etc
+*/
+
+hr {
+    border-style: dotted;
+    border-color: #EAF6F6;
+    width: 7.5%;
+    border-top: 0;
+    border-width: 10px;
+}
+
+
+.intro {
+    width: 49%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.middle-container {
+    padding-top: 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+}
+.contact-me {
+    margin-top: 100px;
+}
+.contact-message {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.copyright-info {
+    margin-top: 50px;
+    color: #EAF6F6;
+    font-size: small;
+    font-weight: 600;
+}
+
+.footer-link {
+    margin: auto 25px;
+
+}
+.footer-link:hover {
+    color: #EAF6F6;
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 50px auto 100px auto;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #66BFBF; 
+    color: #EAF6F6;
+    border-radius: 100px;
+    
+}
+
+.btn:hover{
+        color: #11999E;
+    }
